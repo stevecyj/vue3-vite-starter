@@ -7,6 +7,7 @@
       <SvgIcon
         name="IconDocumentation"
         color="#f00"
+        className="anya"
       />
     </template>
     <template #heading>Documentation</template>
