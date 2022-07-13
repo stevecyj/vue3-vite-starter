@@ -4,7 +4,10 @@
 <template>
   <WelcomeItem>
     <template #icon>
-      <SvgIcon name="IconDocumentation" />
+      <SvgIcon
+        name="IconDocumentation"
+        color="#f00"
+      />
     </template>
     <template #heading>Documentation</template>
 
