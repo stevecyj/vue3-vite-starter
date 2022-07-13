@@ -1,17 +1,10 @@
 <script setup>
-import SvgIcon from './SvgIcon.vue';
-// import WelcomeItem from './WelcomeItem.vue'
-// import DocumentationIcon from './icons/IconDocumentation.vue'
-// import ToolingIcon from './icons/IconTooling.vue'
-// import EcosystemIcon from './icons/IconEcosystem.vue'
-// import CommunityIcon from './icons/IconCommunity.vue'
-// import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
   <WelcomeItem>
     <template #icon>
-      <SvgIcon name="IconCommunity" />
+      <SvgIcon name="IconDocumentation" />
     </template>
     <template #heading>Documentation</template>
 
@@ -90,7 +83,7 @@ import SvgIcon from './SvgIcon.vue';
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <SvgIcon name="IconCommunity" />
     </template>
     <template #heading>Community</template>
 
