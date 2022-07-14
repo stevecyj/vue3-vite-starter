@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
+// eslint-disable-next-line
 import { setupLayouts } from 'virtual:generated-layouts';
+// eslint-disable-next-line
 import generatedRoutes from 'virtual:generated-pages';
 
 const routes = setupLayouts(generatedRoutes);
