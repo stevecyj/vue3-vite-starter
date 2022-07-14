@@ -13,5 +13,8 @@ export const useCounterStore = defineStore({
     increment() {
       this.counter++;
     },
+    setName() {
+      this.name = 'Forger';
+    },
   },
 });
