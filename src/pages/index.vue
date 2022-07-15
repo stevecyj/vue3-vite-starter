@@ -1,7 +1,7 @@
 <script setup>
-import { useCounterStore } from '@/stores/counter.js';
-import { useHomeStore } from '@/stores/home.js';
+// import { useCounterStore } from '@/stores/counter.js';
 import { storeToRefs } from 'pinia';
+import useHomeStore from '@/stores/home.js';
 
 const store = useHomeStore();
 const { name } = storeToRefs(store);
