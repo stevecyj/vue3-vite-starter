@@ -11,6 +11,9 @@ module.exports = {
   },
   plugins: ['vue'],
   rules: {
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    'no-undef': 'off',
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     'vue/multi-word-component-names': [
       'error',
