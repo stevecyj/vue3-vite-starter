@@ -5,7 +5,6 @@ defineProps({
     required: true,
   },
 });
-// eslint-disable-next-line
 const name = ref('Amon');
 </script>
 
